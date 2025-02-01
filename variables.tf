@@ -1,4 +1,8 @@
-variable "cidr" {
+variable "resourcegroup" {
   type    = string
-  default = "10.0.0.0/16"
+  default = "rg-nextops-dinu-01"
+}
+variable "resourcelocation" {
+  type    = string
+  default = "eastus"
 }

@@ -1,3 +1,4 @@
-resource "aws_vpc" "main" {
-  cidr_block = var.cidr
+resource "azurerm_resource_group" "nextops" {
+  name     = var.resourcegroup
+  location = var.resourcelocation
 }
